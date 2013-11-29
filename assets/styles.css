@@ -1,0 +1,129 @@
+/* CSS Document */
+/* Create by Chow Jan 2011
+
+/* common	---------------------------------------------------------------- */
+
+.common {
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+
+.page {
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    width: 728px;
+}
+
+.page h1 {
+    margin: 0;
+    padding: 10px 10px 10px 50px;
+    border-bottom: 1px solid #ccc;
+    font-family: Helvetica;
+    font-size: 18px;
+    color: #037BA2;
+    background-image: url("shoutbox-icon.jpg");
+    background-position: 10px 10px;
+    background-repeat:  no-repeat;
+}
+
+a{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: arial;
+    color: #086CA0;
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #054566;
+
+}
+
+.navigation {
+    margin: 0;
+    padding: 10px;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation li a{
+    float: left;
+    display: block;
+    margin: 0 10px 0 0;
+    padding: 10px;
+    font-size: 12px;
+    font-family: tahoma;
+    color: #086CA0;
+    text-decoration: none;
+
+}
+
+.navigation li a:hover{
+    text-decoration: underline;
+    color: #054566;
+
+}
+
+.content {
+    margin: 0;
+    padding: 10px;
+    border-top: 1px dashed #ddd;
+}
+
+.content h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.content ul { 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.content li { 
+    margin: 5px 0;
+    padding: 0;
+    font-size: 12px;
+    color: #666;
+}
+
+.content table { 
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    border-collapse: collapse;
+}
+
+.content table td { 
+    margin: 0;
+    padding: 10px;
+}
+
+.content .bar-chart { 
+    float: left;
+    margin: 0 10px 0 0;
+    padding: 7px 0px;
+    background-color: #037BA2;
+}
+
+.clear {
+    clear: both;
+}
